@@ -1,0 +1,174 @@
+body {
+  background-color: #FAF3E3;
+  margin: 0;
+  text-align: center;
+  font-family: 'Manrope', sans-serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5em;
+  font-family: 'Rubik Mono One', Helvetica, Arial, sans-serif;
+  width: 100%;
+  line-height: 2; margin-top: 50px auto 0 auto;
+}
+
+h1:hover {
+    color: #FAF3E3 ;
+}
+
+h2 {
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: normal;
+  padding-bottom: 10px;
+}
+h3 {
+  color: #40514E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  line-height: 2;
+  color: #40514E ;
+}
+
+/* Navigation Bar */
+
+.navbar {
+  font-family: 'Manrope', sans-serif;
+  font-size: 20px;
+  background-color: #DDD;
+}
+.navbar a {
+  color: #40514E;
+}
+
+.nav-item {
+  font-family: 'Manrope', sans-serif;
+  color: #40514E;
+}
+
+.top-container {
+  padding: 4% 0 4% 0;
+  background-color: #FF9F29;
+  width: 100%;
+  background-color: #00000;
+  display: inline-block;
+  position: relative;
+
+}
+
+/* Home Page */
+
+
+
+a {
+ color: #1A4D2E ;
+ font-family: 'Manrope', sans-serif;
+ margin: 10px 20px 10px 20px ;
+ text-decoration: none;
+
+}
+
+a:hover {
+  color: #EAF6F6 ;
+}
+
+.middle-container {
+margin: 100px 0 100px 0;
+
+}
+
+.andrew-bio {
+  font-size: 15px;
+  text-align: left;
+
+}
+
+.bottom-container {
+  color: #40514E;
+  font-size: 25px;
+  background-color: #DDDDDD;
+  padding: 50px 0 20px;
+
+}
+
+.footer-link {
+  color: #40514E ;
+}
+
+.copyright {
+  color: #40514E ;
+  font-size: 0.75rem;
+  padding: 20px 0 20px 0 ;
+}
+
+
+.guitar-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.studio-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+#contact {
+  margin:100px 0 100px 0;
+}
+
+.spotify-embed-prod {
+  margin: 100px 0 100px 0 ;
+}
+.bandcamp {
+  margin: 100px 0 100px 0 ;
+
+@media (max-width:1028px) {
+  .bio-container {padding-top:50px;}
+}
+
+/* MUSIC PAGE */
+
+/* ART PAGE*/
+
+.carouselnew {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+
+
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+
+}
+
+.slide[data-active] {
+  opacity: 1;
+}
+
+.slide > img {
+  display: block;
+  width: 75%;
+  height: 75%;
+
+}
+
+.carousel-button {
+  position: absolute;
+  z-index: 2;
+  background: none;
+  border: none;
+  font-size: 4rem;
+  top: 50%;
+
+}
