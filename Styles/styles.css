@@ -19,19 +19,20 @@ h1:hover {
 
 h2 {
   color: #40514E;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Rubik Mono One', sans-serif;
   font-size: 2rem;
   font-weight: normal;
   padding-bottom: 10px;
 }
 h3 {
   color: #40514E;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: bolder;
+  font-size: 1rem;
+  font-family: 'Rubik Mono One', sans-serif;
+  font-weight: lighter;
 }
 
 p {
-  line-height: 2;
+  line-height: 1.5;
   color: #40514E ;
 }
 
@@ -53,7 +54,7 @@ p {
 
 .top-container {
   padding: 4% 0 4% 0;
-  background-color: #FF9F29;
+  background-color: #8EA604;
   width: 100%;
   background-color: #00000;
   display: inline-block;
@@ -63,7 +64,9 @@ p {
 
 /* Home Page */
 
-
+.blurb{
+padding: 10% 0 0% 0;
+}
 
 a {
  color: #1A4D2E ;
@@ -86,16 +89,20 @@ a:hover {
   margin: 50px 0 50px 0;
 }
 
-.andrew-bio {
-  font-size: 15px;
-  text-align: left;
+.middle-container3 {
+    margin: 0 0 0 0;
+}
 
+.contact-link{
+  font: 'Rubik Mono One'
+  margin: 50px 0 0 0;
+  text-align: center;
 }
 
 .bottom-container {
   color: #40514E;
   font-size: 25px;
-  background-color: #DDDDDD;
+  background-color: #8EA604;
   padding: 50px 0 20px;
 
 }
