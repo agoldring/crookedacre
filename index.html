@@ -2,10 +2,14 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Professional audio mastering services by Andrew Goldring in Utah">
     <title>Goldring Mastering</title>
 
-    <!-- My Styles -->
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Existing styles -->
     <link rel="stylesheet" href="styles/styles.css">
 
     <!-- Font Awesome -->
@@ -19,61 +23,179 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat&family=Rubik+Mono+One&display=swap" rel="stylesheet">
   </head>
+  
   <body>
-    <section id=#header>
-      <div class="container-fluid top-container">
-        <h1>Andrew Goldring Mastering</h1>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container">
+        <a class="navbar-brand header-title" href="#">Goldring Mastering</a>
+        <button class="navbar-toggler white-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#work">Work</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#process">Studio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4 mb-4">
+            <img src="Images/console.jpg" class="img-fluid rounded" alt="Andrew Goldring">
+          </div>
+          <div class="col-lg-8">
+            <div class="bio-content">
+              
+              <p>Hello!</p>
+              <p>I'm Andrew, a mastering engineer based in Salt Lake City with over a decade of experience in music production. From DIY projects to major label releases, I've collaborated with artists across all levels of the industry.</p>
+              <p>During my five years in Nashville, I worked as an engineer, producer, and songwriter on numerous successful projects that have garnered millions of streams and featured placements on major Spotify & Apple Music playlists.</p>
+              <p>My journey in mastering began in 2017, and over the past few years it's evolved from a curious side project into my primary focus. Whether you're an independent artist or working with an established team, I'm committed to building meaningful relationships and delivering exceptional sonic quality.</p>
+              <p>My ears are always open to new projects - feel free to reach out about mastering, mixing, or other collaborations. I'd love to hear what you're working on!</p>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <section>
-  <div class="container middle-container">
-    <div class="row">
-      <div>
-        <img src="Images/newmasteringpic.jpg" width="380" alt="profile-img">
-        <p class="blurb">
-          Hello!
-          <p>
-          My name is Andrew Goldring, and I’m a mastering engineer based in the mountains of Utah.</p>
-        <p>Over the past decade I've worn many hats in the music world, collaborating with artists at all levels—from DIY productions to major label releases.</p> <p>For five years I lived and worked in Nashville, where I contributed to a diverse array of projects as an engineer, producer, and songwriter. Music I've worked on has ammased millions of streams, and been featured on many notable Spotify & Apple Music playlists. </p>
-<p>I started mastering records around 2017 and began stedily sharpening my skills & building a client base. Slowly this side hustle turned into a primary focus, and I fell in love with the mindful process of finalizing records and bringing songs to their fullest potential.
-</p>
-  <p>Whether working with independent artists or those with established teams, I am dedicated to building meaningful relationships and delivering exceptional sonic quality in my work.</p>
-<p>If you have any questions regarding my process, current rates, availability, or technical details, please don’t hesitate to reach out.</p>
-<p>-AG</p>
-
-<div>
-
-  <h2 class="contact-link"><a href="mailto:andrewgoldringmusic@gmail.com?subject=Mastering">Contact Me</a></h2>
-        </p>
-      </div>
-
-  <div class="container middle-container2"
-    <div class="row">
-      <div class="col-lg-6">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4mf7cuR0zpywvpW1uGjUvX?utm_source=generator&theme=0" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-    <div class="col-lg-6">
-        <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3HYKc2XGfaXDKuvnr0pQr2?utm_source=generator" width="100%" height="1000" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-      </div>
-  </div>
-  <div class="container middle-container3">
-    <div class="container middle-container">
-      <div class="row">
-        <div class="col-lg-6">
+    <!-- Work Section -->
+    <section id="work" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Recent Work</h2>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/4mf7cuR0zpywvpW1uGjUvX?utm_source=generator&theme=0" 
+                    width="100%" height="800" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+          </div>
+          <div class="col-lg-6 mb-4">
+            <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/3HYKc2XGfaXDKuvnr0pQr2?utm_source=generator" 
+                    width="100%" height="800" frameBorder="0" allowfullscreen="" 
+                    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+                    loading="lazy">
+            </iframe>
+          </div>
         </div>
- 
-</section>
-      <div class="bottom-container">
-        <a class="footer-link" href="https://www.instagram.com/goldring_mastering"><i class="footer-icon fa-brands fa-instagram"></i></a>
-        <a class="footer-link" href="https://open.spotify.com/playlist/4mf7cuR0zpywvpW1uGjUvX?si=32b1e2b4e48144ac"><i class="fa-brands fa-spotify"></i></a>
-        <p class="copyright">© Goldring Mastering</p>
       </div>
+    </section>
 
-  <!-- Bootstrap Scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+    <!-- Services Section -->
+    <section id="services" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-5">Services</h2>
+        <div class="row">
+          <!-- Service 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="service-card text-center">
+              <h3 class="mb-3">Mastering (Digital)</h3>
+              <p>Detail-sensitive mastering for your stereo mixes. Includes instrumentals, alternate versions & revisions to ensure you are 100% satisfied. Organized deliverables in release-ready formats for labels & distributors .
+              </p>
+            </div>
+          </div>
+          
+          <!-- Service 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="service-card text-center">
+              <h3 class="mb-3">Mastering (Physical)</h3>
+              <p>Looking to create a physical release? I will provide additional mastered versions of your project specifically tailored for vinyl pressing, and CD replication (DDP).</p>
+            </div>
+          </div>
+          
+          <!-- Service 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="service-card text-center">
+              <h3 class="mb-3">Mixing</h3>
+              <p>Need more than mastering? I occasionaly take on mixing or stem mastering projects. I love adding analog glue and clarity to your productions with a fresh ear. Feel free to reach out for a quote.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Process Section -->
+    <section id="process" class="py-5" style="background-color: #1a1a1a !important; color: #f8f9fa !important;">
+      <div class="container">
+        <h2 class="mb-5" style="color: #f8f9fa !important;">Studio / Process</h2>
+        
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <p style="color: #f8f9fa !important;">
+              The studio is acoustically treated to ensure accurate monitoring. I cross reference my work between Tyler Acoustics MM6x mastering speakers, Audeze LCD-X Headphones, and a mono Auratone 5C.
+            </p>
+            <p style="color: #f8f9fa !important;">
+              Conversion & monitoring path is handled by a Mytek mastering grade AD/DA. I use a carefully selected hybrid digital/analog processing chain, unique to the needs of each project.
+            </p>
+          </div>
+          
+          <div class="col-lg-6 mb-4">
+            <p style="color: #f8f9fa !important;">
+              Each project starts with a conversation about your sonic goals for the record, and how mastering can help you acheive your vision. 
+            </p>
+            <p style="color: #f8f9fa !important;">
+              Deliverables provide high-resolution streaming-optimized masters, alternate versions, and any additional formats needed for distribution or archival.
+        
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5" style="background-color: #1a1a1a !important; color: #f8f9fa !important;">
+      <div class="container">
+        <div class="row align-items-center">
+          <!-- Image Column -->
+          <div class="col-md-6 mb-4">
+            <img src="Images/cottonwood.jpg" class="img-fluid rounded" alt="Studio Image">
+          </div>
+          <!-- Text Column -->
+          <div class="col-md-6 text-center">
+            <h2 class="mb-4" style="color: #f8f9fa !important;">Let's Work Together</h2>
+            <p class="mb-4" style="color: #f8f9fa !important;">If you have any questions regarding my process, current rates, availability, or just want to say hi, please don't hesitate to reach out.</p>
+      
+            <a href="mailto:andrewgoldringmusic@gmail.com?subject=Mastering" 
+               class="btn btn-primary btn-lg">Contact Me</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <div class="mb-3">
+          <a class="footer-link mx-2" href="https://www.instagram.com/goldring_mastering">
+            <i class="footer-icon fa-brands fa-instagram"></i>
+          </a>
+          <a class="footer-link mx-2" href="https://open.spotify.com/playlist/4mf7cuR0zpywvpW1uGjUvX">
+            <i class="fa-brands fa-spotify"></i>
+          </a>
+        </div>
+        <p class="copyright mb-0">© 2024 Goldring Mastering</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
-
-  </html>
+</html>
